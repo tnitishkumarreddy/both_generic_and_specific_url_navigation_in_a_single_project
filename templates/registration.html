@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       a{
+        text-decoration: none;
+
+       }
+       center{
+        margin: 200px auto;
+       }
+    </style>
+</head>
+<body>
+    <center class="container">
+        <table border="2px solid">
+            <tr>
+                <td><label for="">Username:</label></td>
+                <td><input type="text" placeholder="Enter username"></label></td>
+
+            </tr>
+            <tr>
+                <td><label for="">Create password:</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label for="">Confirm password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><button>Register</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="{% url 'login1:login' %}">click here to got to login page</a></td>
+            </tr>
+        </table>
+    
+
+    </center>
+</body>
+</html>
